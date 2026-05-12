@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta
+    http-equiv="Content-Security-Policy"
+    content="script-src 'nonce-aem' 'strict-dynamic' 'unsafe-inline' http: https:; base-uri 'self'; object-src 'none';"
+  >
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accordion block demo</title>
+  <script nonce="aem" src="/scripts/aem.js" type="module"></script>
+  <script nonce="aem" src="/scripts/scripts.js" type="module"></script>
+  <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+  <header></header>
+  <main>
+    <div>
+      <h1>Accordion block demo</h1>
+      <div class="accordion">
+        <div>
+          <div>Guatemala Huehuetenango Finca Rosma</div>
+          <div>
+            <picture>
+              <source media="(max-width: 400px)" srcset="./media_1.jpeg">
+              <img src="./media_1.jpeg" alt="Guatemala Huehuetenango Finca Rosma coffee" loading="lazy">
+            </picture>
+            <p>A flavor compound of dark sugars, oatmeal-raisin cookies, a faint blackberry accent note and acidic impression.</p>
+          </div>
+        </div>
+        <div>
+          <div>Ethiopia Dry Process Dari Kidame</div>
+          <div>
+            <picture>
+              <source media="(max-width: 400px)" srcset="./media_2.jpeg">
+              <img src="./media_2.jpeg" alt="Ethiopia Dry Process Dari Kidame coffee" loading="lazy">
+            </picture>
+            <p>Fruits are well-integrated into the coffee's sweetness, and acidity is bright for a dry process. Date sugar, orange marmalade, mango, and aromatic cedar.</p>
+          </div>
+        </div>
+        <div>
+          <div>Colombia Buesaco Alianza Granjeros</div>
+          <div>
+            <picture>
+              <source media="(max-width: 400px)" srcset="./media_3.jpeg">
+              <img src="./media_3.jpeg" alt="Colombia Buesaco Alianza Granjeros coffee" loading="lazy">
+            </picture>
+            <p>Raw demurara sugar sweetness, aromatic butterscotch, hints of apple, golden raisin, orange peel, and elegant citrus acidic impression.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer></footer>
+</body>
+</html>
